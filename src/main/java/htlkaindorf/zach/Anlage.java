@@ -20,7 +20,7 @@ public class Anlage
 
   public void updateBuchwert(int jahreGenutzt)
   {
-    buchwert = anschaffungswert - jahreGenutzt * jahresAfa();
+    buchwert = nutzungsdauer - jahreGenutzt * jahresAfa();
   }
 
   public double getBuchwert()
